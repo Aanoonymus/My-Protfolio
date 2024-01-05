@@ -1,0 +1,30 @@
+.navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 140px;
+  padding: 0 60px;
+
+  .navbar-list {
+    display: flex;
+    gap: 35px;
+
+    .navbar-list-item {
+      list-style-type: none;
+
+      .navbar-list-item-link {
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 500;
+        color: #000;
+      }
+
+      .active {
+        color: #ff6464;
+        text-decoration: underline;
+        text-underline-offset: 5px;
+      }
+    }
+  }
+}

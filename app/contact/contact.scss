@@ -1,0 +1,47 @@
+.contact {
+  width: 100%;
+  padding: 0 250px;
+  margin-bottom: 50px;
+  margin-top: -50px;
+  display: flex;
+  justify-content: space-between;
+
+  .contact-title {
+    color: var(--Dark-Color, #21243d);
+    font-size: 44px;
+    font-weight: 800;
+    line-height: 60px;
+    margin-bottom: 30px;
+  }
+
+  .contact-link-wrapper {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0 15px;
+    flex-direction: column;
+
+    .contact-link {
+      text-decoration: none;
+      color: var(--Dark-Color, #21243d);
+      font-weight: 400;
+    }
+  }
+
+  .contact-telegram {
+    color: var(--Dark-Color, #24284d);
+    font-weight: 500;
+  }
+
+  .contact-location-title {
+    color: var(--Dark-Color, #21243d);
+    font-size: 44px;
+    font-weight: 800;
+    line-height: 60px;
+    margin-bottom: 30px;
+  }
+
+  .contact-location {
+    color: var(--Dark-Color, #24284d);
+    font-weight: 500;
+  }
+}

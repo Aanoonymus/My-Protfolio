@@ -1,0 +1,23 @@
+.footer {
+  width: 100%;
+  padding: 50px 0 0;
+
+  .footer-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .copyright {
+    color: var(--Dark, #21243d);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 25px;
+  }
+}
+
+.footer-list li {
+  list-style-type: none;
+}
