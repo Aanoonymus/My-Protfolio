@@ -19,7 +19,11 @@ const Hero = () => {
           command of Russian and Uzbek languages.
         </p>
 
-        <a style={{ textDecoration: "none" }} href="/Resume.pdf" download>
+        <a
+          style={{ textDecoration: "none" }}
+          href="/MuhammadMuaz Nematullaev.pdf"
+          download
+        >
           <code className="hero-btn"> Download Resume</code>
         </a>
       </div>
